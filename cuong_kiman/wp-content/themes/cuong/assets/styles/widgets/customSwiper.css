@@ -1,0 +1,12 @@
+.swiper-button-next::after, .swiper-button-prev::after {
+    content: "";
+}
+.swiper-container-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet{
+    margin: 0 8px;
+}
+.swiper-pagination-bullet.swiper-pagination-bullet-active{
+    background: #102E57;
+}
+.swiper-pagination-bullet{
+    background: #C4C4C4;
+}

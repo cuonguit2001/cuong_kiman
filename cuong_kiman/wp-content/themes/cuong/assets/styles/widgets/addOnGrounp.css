@@ -1,0 +1,89 @@
+#addOnGrounp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: fixed;
+  right: 100px;
+  bottom: 37px;
+  z-index: 999;
+}
+.btnAddOn {
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+.btn__ontop {
+  background: #ffc107;
+  border-radius: 5px;
+  padding: 14px;
+  margin-bottom: 16px;
+  transition: background-color .3s, opacity .5s, visibility .5s;
+  opacity: 0;
+  visibility: hidden;
+  z-index: 1000;
+}
+.btn__ontop.show {
+  opacity: 0.7;
+  visibility: visible;
+}
+.btn__message {
+  width: 48px;
+  height: 48px;
+  background-image: url("../../images/icon/messenger.png");
+}
+.addOntext {
+  font-size: 10px;
+  line-height: 15px;
+  color: #153c72;
+}
+
+@media screen and (min-width: 769px) {
+  .image-ontop {
+    display: none;
+  }
+}
+#addOnGrounp {
+  display: none;
+}
+.mobile_footer_button {
+  display: none;
+}
+.mobile_footer_button .header__nav--item--button .header__nav--link {
+  height: 30px;
+  line-height: 25px;
+}
+@media screen and (max-width: 768px) {
+  .mobile_footer_button {
+    display: block;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    opacity: 1;
+    z-index: 999;
+  }
+  .btn__ontop.show {
+    opacity: 0.7;
+  }
+  #addOnGrounp {
+    flex-direction: row-reverse;
+    right: 24px;
+  }
+  .btn__ontop{
+    margin-bottom: 0;
+    width: auto;
+    height: auto;
+    padding: 14px;
+  }
+  .btn__message{
+    margin-right: 16px;
+  }
+  .content-ontop {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 414px) {
+}

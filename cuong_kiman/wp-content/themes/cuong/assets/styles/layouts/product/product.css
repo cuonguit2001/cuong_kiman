@@ -1,0 +1,102 @@
+.product__content{
+  margin-bottom: 30px;
+  position: relative;
+}
+.product__title {
+  font-family: Be Vietnam;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 35px;
+  line-height: 51px;
+  color: var(--primary-color);
+  margin-bottom: 30px;
+}
+.product__content {
+  margin-bottom: 80px;
+}
+.product__artical--item {
+  margin-bottom: 38px;
+}
+.product__artical--link {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.product__artical--link img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  margin: 0 auto;
+}
+.procuct__artical--desc{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.product__artical--title{
+  margin-bottom: 8px;
+}
+.product__artical--title a{
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 20px;
+    color: #434343;
+    text-decoration: none;
+}
+.product__artical--text{
+  margin-bottom: 8px;
+}
+.product__artical--text a{
+    font-size: 14px;
+    line-height: 20px;
+    color: #434343;
+    text-decoration: none;
+}
+.product__artical--exten{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+.product__main--stickyForm {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 90px;
+  z-index: 1;
+  max-height: 80vh;
+  overflow: auto;
+}
+.product__main--stickyForm::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+.product__main--stickyForm::-webkit-scrollbar-thumb {
+  background: #bcbcbc;
+}
+.product__main--stickyForm::-webkit-scrollbar {
+  width: 3px;
+}
+
+@media screen and (max-width: 1080px) { 
+  .product__artical--exten{
+    position: relative;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .procuct__artical--desc{
+    margin-top: 19px;
+  }
+  .product__artical--link{
+    /* padding: 0 16px; */
+  }
+  #pagination-container{
+    margin-bottom: 60px;
+  }
+}
+
+@media screen and (max-width: 414px) {
+}
+

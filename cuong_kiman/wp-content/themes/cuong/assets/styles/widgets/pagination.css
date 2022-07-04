@@ -1,0 +1,40 @@
+#pagination-container {
+  display: flex;
+  justify-content: center;
+}
+.wp-pagenavi {
+    justify-content: center;
+}
+#pagination-container .wp-pagenavi a:hover {
+  color: #0056b3;
+  text-decoration: none;
+  background-color: #e9ecef;
+  border-color: #dee2e6;
+}
+#pagination-container .wp-pagenavi a  {
+  background: #f8f9fa;
+  box-shadow: 0px 0px 0px rgb(0 0 0 / 10%);
+  color: #052e5a;
+  font-size: 14px;
+  width: 35px;
+  height: 40px;
+  display: inline-block;
+  text-align: center;
+  line-height: 35px;
+  margin: 5px;
+  border: 1px solid #dee2e6;
+}
+#pagination-container .wp-pagenavi span.current {
+  background: #153C72;
+  box-shadow: 0px 0px 0px rgb(0 0 0 / 10%);
+  color: #fff;
+  font-weight: 400;
+  font-size: 14px;
+  width: 35px;
+  height: 40px;
+  display: inline-block;
+  text-align: center;
+  line-height: 35px;
+  margin: 5px;
+  border: 1px solid #dee2e6;
+}

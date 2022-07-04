@@ -1,0 +1,81 @@
+.heroBanner{
+    height: 600px;
+    width: 100%;
+    max-width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+.swiperBanner{
+    width: 100%;
+    height: 100%;
+}
+.swiper-slide{
+    text-align: center;
+        font-size: 18px;
+        background: #fff;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+}
+.swiper-slide img{
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.swiper-button-next.swiper__btn-next{
+    right: 46px;
+}
+.swiper-button-prev.swiper__btn-prev{
+    left: 46px;
+}
+.hearoBanner__button{
+    position: absolute;
+    right: 250px;
+    bottom: 120px;
+    z-index: 1;
+    padding: 16px 50px;
+    background-color: var(--primary-color);
+    border-radius: 5px;
+}
+.heroBanner__link{
+    text-align: center;
+    color: var(--default-color);
+}
+@media screen and (max-width: 1080px) {
+}
+
+@media screen and (max-width: 768px) {
+    .heroBanner{
+        height: 500px;
+    }
+    .hearoBanner__button{
+        right: 100px;
+        bottom: 80px;
+    }
+}
+
+@media screen and (max-width: 414px) {
+    .heroBanner{
+        height: 450px;
+    }
+    .hearoBanner__button{
+        right: 10px;
+        bottom: 60px;
+    }
+    .swiper-button-next.swiper__btn-next{
+        right: 36px;
+    }
+    .swiper-button-prev.swiper__btn-prev{
+        left: 36px;
+    }
+}

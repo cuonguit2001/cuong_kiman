@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+	<node>
+		<id><![CDATA[221]]></id>
+		<name><![CDATA[Nguyễn Phú Cường]]></name>
+		<phonenumber><![CDATA[9394856334]]></phonenumber>
+		<yourjob><![CDATA[Chủ kinh doanh / doanh nghiệp]]></yourjob>
+		<yourproduct><![CDATA[Cá tươi]]></yourproduct>
+		<yourcurrent><![CDATA[Đang kinh doanh bình thường]]></yourcurrent>
+		<youraddress><![CDATA[123]]></youraddress>
+		<village><![CDATA[Phường Đa Kao]]></village>
+		<district><![CDATA[Quận 1]]></district>
+		<city><![CDATA[Thành phố Hồ Chí Minh]]></city>
+		<loanvalue><![CDATA[2]]></loanvalue>
+		<termvalue><![CDATA[Ít hơn 6 tháng]]></termvalue>
+	</node>
+</data>

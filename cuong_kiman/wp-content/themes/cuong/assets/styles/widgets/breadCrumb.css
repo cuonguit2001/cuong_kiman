@@ -1,0 +1,27 @@
+.breadCrumb{
+    padding-top: 20px;
+}
+.breadCrumb a{
+    font-family: Be Vietnam;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #153C72;
+}
+.breadCrumb span {
+    font-family: Be Vietnam;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #000;
+}
+
+
+
+@media screen and (max-width: 768px) {
+}
+
+@media screen and (max-width: 414px) {
+}

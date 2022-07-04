@@ -1,0 +1,296 @@
+/* Reset CSS */
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  line-height: 25px;
+  vertical-align: baseline;
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+body.admin-bar header.header__container {
+  padding-top: 40px;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+a {
+  text-decoration: none;
+}
+/* End Reset CSS */
+
+:root {
+  --primary-color: #052e5a;
+  --secondary-color: #ffc107;
+  --default-color: #ffffff;
+  --grayLigh-color : #434343;
+  --default-font: "Be Vietnam", sans-serif;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+html body {
+  font-family: Be Vietnam, sans-serif !important;
+}
+.container__global {
+  /* width: 990px; */
+  width: 1200px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+.container__global_w1200 {
+  width: 1200px;
+  max-width: 100%;
+  margin: 0 auto;
+  z-index: 99;
+}
+.text-secondaryColor {
+  color: var(--secondary-color);
+}
+.text-primaryColor {
+  color: var(--primary-color);
+}
+.text-defaultColor {
+  color: var(--default-color);
+}
+.text-center {
+  text-align: center;
+}
+.fw-500 {
+  font-weight: 500;
+}
+.fw-600 {
+  font-weight: 600;
+}
+.fw-700 {
+  font-weight: 700;
+}
+#main__content {
+  margin-top: 65px;
+}
+.p-relative {
+  position: relative;
+}
+.t2-overflow {
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  display: -webkit-box;
+}
+.t3-overflow {
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  display: -webkit-box;
+}
+.learnMore {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  color: var(--primary-color);
+  text-decoration: none;
+}
+.learnMore:hover {
+  text-decoration: none;
+  color: var(--primary-color);
+}
+.date {
+  font-size: 12px;
+  line-height: 18px;
+  color: #434343;
+}
+.align-cen {
+  align-items: center !important;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+.loading {
+  display: none;
+}
+.loading_wrapper {
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+    background: #ffffffa6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.loading_wrapper .spinner-grow {
+  width: 4rem;
+  height: 4rem;
+}
+.lwptoc-light .lwptoc_i {
+  padding-bottom: 16px;
+  border-bottom: 1px solid #BCBCBC;
+  margin-bottom: 16px;
+  width: 100%;
+}
+.lwptoc_header {
+  margin-bottom: 20px;
+}
+.lwptoc-notInherit .lwptoc_i div a {
+  font-size: 12px;
+  line-height: 18px;
+  color: #153C72;
+}
+@media screen and (max-width: 1080px) {
+  .container__global {
+    padding: 0 16px;
+  }
+  .container__global_w1200 {
+    padding: 0 16px;
+  }
+}
+.news__content--stickyForm {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 90px;
+  z-index: 1;
+  max-height: 80vh;
+  overflow: auto;
+}
+.header__nav--item--button.mobile_display {
+  display: none;
+}
+@media screen and (max-width: 768px) {
+  html, body {
+    overflow-x: hidden;
+  }
+  .header__lang {
+    padding: 15px 0px 30px;
+    justify-content: center;
+  }
+  .header__lang li:first-child {
+    margin-left: 10px;
+  }
+  .header__nav--item--button.mobile_display {
+    display: block;
+    border-radius: 5px;
+    padding: 5px 10px;
+  }
+}
+
+@media screen and (max-width: 414px) {
+}

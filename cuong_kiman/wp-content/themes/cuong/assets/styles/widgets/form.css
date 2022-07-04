@@ -1,0 +1,224 @@
+.form__register--fiels {
+  padding-top: 16px;
+  background-color: #f8f9fa;
+  margin-bottom: 30px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.form__register--fiels .form-group {
+  margin-bottom: 0;
+}
+.form__fiel {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin-bottom: 24px;
+  position: relative;
+}
+.form__fiel > label {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  color: #153c72;
+  margin-bottom: 16px;
+}
+.form__fiel .form__input {
+  width: 100%;
+  padding: 9px 0 9px 14px;
+  border-radius: 0;
+  border: 1px solid #bcbcbc;
+  outline: none;
+}
+.form__fiel .form__input:focus {
+  border: 1px solid #153c72;
+}
+.form__fiel .form__input.error {
+  border: 1px solid #cb2027;
+}
+.noty__error {
+  font-size: 12px;
+  line-height: 18px;
+  color: #cb2027;
+  margin-bottom: 0;
+  margin-top: 6px;
+  display: none;
+}
+.loanWord {
+  font-size: 12px;
+  line-height: 18px;
+  color: var(--grayLigh-color);
+  margin-bottom: 0;
+  margin-top: 6px;
+}
+.form__fiel .input__readonly {
+  width: 100%;
+  position: relative;
+}
+.form__fiel .input__readonly:hover {
+  cursor: pointer;
+}
+.form__fiel .input__readonly .form__input:disabled {
+  background-color: #ffffff;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.form__fiel .input__readonly .input-icon {
+  position: absolute;
+  right: 8px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.form__fiel > .lable__note {
+  font-size: 12px;
+  line-height: 18px;
+  color: #434343;
+  margin-bottom: 8px;
+}
+.form__fiel .form__input::placeholder {
+  font-size: 12px;
+  line-height: 18px;
+  color: #bcbcbc;
+}
+.form__register--btn {
+  width: 100%;
+  padding: 8px 0;
+  text-align: center;
+  border: none;
+  outline: none;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 20px;
+  color: #ffffff;
+  background-color: var(--primary-color);
+}
+.form__select-multi {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  background-color: white;
+  z-index: 1;
+  display: none;
+}
+.form__select-header {
+  padding: 18px 0 18px 12px;
+  position: relative;
+  z-index: 1;
+  background-color: #fff;
+}
+.form__select--process {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: fit-content;
+  -webkit-width: fit-content;
+  position: relative;
+}
+.line-process {
+  position: absolute;
+  content: "";
+  width: 35%;
+  border-bottom: 1px solid #ffc107;
+  bottom: 0;
+  left: 0;
+  transition: 0.35s all ease;
+}
+.form__select--process-item {
+  margin-right: 16px;
+  font-size: 12px;
+  line-height: 18px;
+  color: #bcbcbc;
+  padding-bottom: 6px;
+  cursor: pointer;
+}
+.form__select--process-item:last-child {
+  margin-right: 0;
+}
+.form__select--process-item.active {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 18px;
+  color: #153c72;
+}
+.form__select--item {
+  max-height: 214px;
+  overflow: auto;
+  width: 100%;
+  transition: all 0.35s ease;
+}
+.form__select--item::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+.form__select--item::-webkit-scrollbar-thumb {
+  background: #bcbcbc;
+}
+.form__select--item::-webkit-scrollbar {
+  width: 3px;
+}
+.form__select--list--item {
+  padding: 8px 8px 8px 20px;
+  cursor: pointer;
+  font-size: 12px;
+  line-height: 18px;
+}
+.form__select--list--item.active,
+.form__select--list--item:hover {
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 18px;
+  color: #ffffff;
+  background: #153c72;
+}
+.form__select--main {
+  display: -webkit-box;
+  justify-content: flex-start;
+  align-items: center;
+  overflow: hidden;
+}
+.fomr__select--value {
+  display: none;
+}
+.form__register.widgets {
+  box-shadow: 0px 4px 10px rgba(5, 46, 90, 0.1);
+  border-radius: 5px;
+  /* padding-bottom: 57px; */
+  background-color: #f8f9fa;
+  padding: 0px 15px;
+}
+.form--title {
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 29px;
+  color: #153c72;
+  text-align: center;
+  margin-top: 16px;
+  margin-bottom: 32px;
+}
+.form__sticky {
+  overflow: auto;
+  /* padding-bottom: 26px; */
+  position: absolute;
+  top: 0;
+  overflow: auto;
+  transition: all 0.35s ease;
+  max-width: 100%;
+}
+.form__sticky::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+.form__sticky::-webkit-scrollbar-thumb {
+  background: #bcbcbc;
+}
+.form__sticky::-webkit-scrollbar {
+  width: 3px;
+}
+
+@media screen and (max-width: 768px) {
+  .form__sticky{
+    position: relative;
+  }
+}
+
+@media screen and (max-width: 414px) {
+}

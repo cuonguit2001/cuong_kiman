@@ -1,0 +1,70 @@
+.select2.select2-container.select2-container--default {
+  width: 100% !important;
+}
+.select2-container .select2-selection--single {
+  height: auto;
+  border: none;
+}
+.select2-container .select2-selection--single .select2-selection__rendered {
+  width: 100%;
+  padding: 9px 0 9px 14px;
+  border-radius: 0;
+  border: 1px solid #bcbcbc;
+  outline: none;
+  background-color: transparent;
+}
+.select2-container--default .select2-selection--single .select2-selection__rendered{
+  line-height: initial;
+}
+.select2-container .select2-selection--single .select2-selection__rendered.error{
+  border: 1px solid #cb2027 !important;
+}
+.select2-search.select2-search--dropdown {
+  display: none;
+}
+.select2-search__field {
+  display: none;
+}
+.select2-container--default
+  .select2-selection--single
+  .select2-selection__arrow {
+  right: 8px;
+}
+.select2-container--default
+  .select2-selection--single
+  .select2-selection__arrow
+  b {
+  border: none !important;
+  margin: auto !important;
+  position: relative;
+}
+.select2-selection__placeholder {
+  font-size: 12px;
+  line-height: 18px;
+  color: #bcbcbc;
+}
+.select2-results__option.select2-results__option--selectable {
+  padding: 8px 0 8px 20px;
+  font-size: 12px;
+  line-height: 18px;
+}
+.select2-container--default
+  .select2-results__option--highlighted.select2-results__option--selectable {
+  background-color: var(--primary-color);
+  font-weight: bold;
+}
+.select2-container--default .select2-results>.select2-results__options::-webkit-scrollbar-track{
+    background: #f1f1f1; 
+}
+.select2-container--default .select2-results>.select2-results__options::-webkit-scrollbar-thumb{
+    background: #BCBCBC; 
+}
+.select2-container--default .select2-results>.select2-results__options::-webkit-scrollbar{
+    width: 3px;
+}
+.select2.select2-container.select2-container--default.select2-container--below.select2-container--focus.select2-container--open{
+    border: 1px solid #153C72;
+}
+.select2.select2-container.select2-container--default.select2-container--below.select2-container--focus.select2-container--open .select2-selection__rendered{
+    border: none;
+}
